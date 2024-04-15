@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/rpsgame/static/css/main.f855e6bc.css",
+    "main.js": "/rpsgame/static/js/main.1128243c.js",
+    "static/js/453.37484176.chunk.js": "/rpsgame/static/js/453.37484176.chunk.js",
+    "static/media/logo.svg": "/rpsgame/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/rpsgame/index.html",
+    "main.f855e6bc.css.map": "/rpsgame/static/css/main.f855e6bc.css.map",
+    "main.1128243c.js.map": "/rpsgame/static/js/main.1128243c.js.map",
+    "453.37484176.chunk.js.map": "/rpsgame/static/js/453.37484176.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.1128243c.js"
+  ]
+}
