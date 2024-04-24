@@ -3,9 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Footer() {
   return (
-    <footer className="footer mt-auto py-3 bg-dark text-white">
+    <footer className="footer mt-auto py-3 bg-dark text-white" fixed="bottom">
       <div className="container">
-        <span className="text-muted">© 2024 Your Name</span>
+        <span className="text-muted">Github</span>
       </div>
     </footer>
   );
