@@ -1,10 +1,12 @@
-// components/Footer.js
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Footer() {
   return (
-    <footer class="footer">
-      <p>Rock Paper Scissor Game</p>
+    <footer className="footer mt-auto py-3 bg-dark text-white">
+      <div className="container">
+        <span className="text-muted">© 2024 Your Name</span>
+      </div>
     </footer>
   );
 }

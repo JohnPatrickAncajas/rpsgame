@@ -1,13 +1,15 @@
-// components/Navbar.js
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Container, Navbar } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Navbar() {
+function NavigationBar() {
   return (
-    <nav class="navbar">
-      <Link to="/">Rock Paper Scissor Game</Link>
-    </nav>
+    <Navbar bg="dark" variant="dark" fixed="top">
+      <Container>
+        <Navbar.Brand href="#home">Rock Paper Scissors</Navbar.Brand>
+      </Container>
+    </Navbar>
   );
 }
 
-export default Navbar;
+export default NavigationBar;
