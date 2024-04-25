@@ -13,6 +13,7 @@ function NavigationBar() {
           <Nav className="me-auto">
           </Nav>
           <Nav>
+            <Nav.Link as={Link} to="/rpsgame">Home</Nav.Link>
             <Nav.Link as={Link} to="/normal">Normal</Nav.Link>
             <Nav.Link as={Link} to="/impossible">Impossible</Nav.Link>
           </Nav>
