@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Home() {
+function Normal() {
   const [userChoice, setUserChoice] = useState(null);
   const [computerChoice, setComputerChoice] = useState(null);
   const [result, setResult] = useState('');
@@ -29,7 +29,7 @@ function Home() {
   };
 
   return (
-    <div style={{ marginTop: '2rem' }}>
+    <div className="mt-2">
       <Container>
         <Row className="justify-content-md-center">
           <Col md="auto">
@@ -54,4 +54,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Normal;
