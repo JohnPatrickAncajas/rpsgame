@@ -33,16 +33,16 @@ function Normal() {
       <Container>
         <Row className="justify-content-md-center">
           <Col md="auto">
-            <h1>Rock Paper Scissors Game!</h1>
-            <p>Choose your move:</p>
-            <Button className="mx-1 my-2" onClick={() => handleChoice('Rock')}>Rock</Button>
-            <Button className="mx-1 my-2" onClick={() => handleChoice('Paper')}>Paper</Button>
-            <Button className="mx-1 my-2" onClick={() => handleChoice('Scissors')}>Scissors</Button>
+            <h1 className="mt-3">Rock Paper Scissors Game!</h1>
+            <p>Against Normal Computer, choose your move!</p>
+            <Button className="mx-1 my-1" onClick={() => handleChoice('Rock')}>Rock</Button>
+            <Button className="mx-1 my-1" onClick={() => handleChoice('Paper')}>Paper</Button>
+            <Button className="mx-1 my-1" onClick={() => handleChoice('Scissors')}>Scissors</Button>
             {userChoice && (
-              <p>Your choice: {userChoice}</p>
+              <p className="mt-3">Your choice: {userChoice}</p>
             )}
             {computerChoice && (
-              <p>Computer's choice: {computerChoice}</p>
+              <p>Computer's choice (Normal): {computerChoice}</p>
             )}
             {result && (
               <p>{result}</p>

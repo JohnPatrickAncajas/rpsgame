@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavigationBar from './components/Navbar';
-import Regular from './views/Normal';
+import Normal from './views/Normal';
 import Impossible from './views/Impossible';
 import Footer from './components/Footer';
 
@@ -11,9 +11,9 @@ function App() {
     <Router>
       <div className="App d-flex flex-column min-vh-100">
         <NavigationBar />
-        <div className="flex-grow-1">
+        <div className="flex-grow-1 mt-5">
           <Routes>
-            <Route path="/regular" element={<Regular />} />
+            <Route path="/normal" element={<Normal />} />
             <Route path="/impossible" element={<Impossible />} />
           </Routes>
         </div>
