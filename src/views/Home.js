@@ -8,16 +8,16 @@ function Home() {
   const [result, setResult] = useState('');
 
   const handleChoice = (choice) => {
-    const choices = ['rock', 'paper', 'scissors'];
+    const choices = ['Rock', 'Paper', 'Scissors'];
     const randomIndex = Math.floor(Math.random() * choices.length);
     const computerRandomChoice = choices[randomIndex];
 
     if (choice === computerRandomChoice) {
       setResult('It\'s a tie!');
     } else if (
-      (choice === 'rock' && computerRandomChoice === 'scissors') ||
-      (choice === 'paper' && computerRandomChoice === 'rock') ||
-      (choice === 'scissors' && computerRandomChoice === 'paper')
+      (choice === 'Rock' && computerRandomChoice === 'Scissors') ||
+      (choice === 'Paper' && computerRandomChoice === 'Rock') ||
+      (choice === 'Scissors' && computerRandomChoice === 'Paper')
     ) {
       setResult('You win!');
     } else {
@@ -35,9 +35,9 @@ function Home() {
           <Col md="auto">
             <h1>Rock Paper Scissors Game!</h1>
             <p>Choose your move:</p>
-            <Button className='mr-1' onClick={() => handleChoice('rock')}>Rock</Button>
-            <Button className='mr-1' onClick={() => handleChoice('paper')}>Paper</Button>
-            <Button className='mr-1' onClick={() => handleChoice('scissors')}>Scissors</Button>
+            <Button className="mx-1 my-2" onClick={() => handleChoice('Rock')}>Rock</Button>
+            <Button className="mx-1 my-2" onClick={() => handleChoice('Paper')}>Paper</Button>
+            <Button className="mx-1 my-2" onClick={() => handleChoice('Scissors')}>Scissors</Button>
             {userChoice && (
               <p>Your choice: {userChoice}</p>
             )}
