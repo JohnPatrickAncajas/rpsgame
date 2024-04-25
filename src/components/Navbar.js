@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function NavigationBar() {
   return (
-    <Navbar bg="dark" variant="dark" fixed="top">
+    <Navbar bg="dark" variant="dark">
       <Container>
         <Navbar.Brand href="#home">Rock Paper Scissors</Navbar.Brand>
       </Container>

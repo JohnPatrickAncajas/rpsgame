@@ -12,7 +12,7 @@ function App() {
         <NavigationBar />
         <div className="flex-grow-1">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/rpsgame" element={<Home />} />
           </Routes>
         </div>
         <Footer />

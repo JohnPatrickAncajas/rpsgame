@@ -4,13 +4,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Home() {
   return (
-    <Container>
-      <Row className="justify-content-md-center">
-        <Col md="auto">
-          <h1>Welcome to Rock Paper Scissors Game!</h1>
-        </Col>
-      </Row>
-    </Container>
+    <div style={{ marginTop: '2rem' }}>
+      <Container>
+        <Row className="justify-content-md-center">
+          <Col md="auto">
+            <h1>Welcome to Rock Paper Scissors Game!</h1>
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 }
 
